@@ -1,0 +1,24 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  margin-bottom: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 20px;
+  transition: width 2s, height 2s;
+}
+
+.box1:hover {
+  width: 600px;
+}
+
+.box2:hover {
+  width: 150px;
+  height: 150px;
+}
